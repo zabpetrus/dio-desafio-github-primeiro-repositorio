@@ -1,4 +1,0 @@
-Aula feita 01/05/2022
-
--> Conhecendo os comandos de navegação no prompt de comando no Windows/Linux
--> Git Bash

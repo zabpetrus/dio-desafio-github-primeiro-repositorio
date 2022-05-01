@@ -1,0 +1,66 @@
+Aula do  01/05/2022
+_____________________________________________________
+
+-> Conhecendo os comandos de navegação no prompt de comando no Windows/Linux
+
+Windows
+
+cd – entrar no diretório
+dir – listar o conteúdo do diretório
+mkdir - criar um diretório
+del - excluir arquivos
+rmdir - excluir pasta 
+
+Linux
+
+cd – entrar no diretório
+dir – listar o conteúdo do diretório
+mkdir - criar um diretório
+rm - excluir arquivos
+
+
+//Excluir pasta com todos os arquivos e subdiretórios - Windows
+rmdir <nomedapasta> /s /q   
+
+//Excluir pasta com todos os arquivos e subdiretórios - Linux
+rm -rf <nomedapasta>
+
+//Criar novo arquivo
+echo hello > hello.txt
+
+
+-> Git Bash
+Para se usar o gitBash é interessante conhecer os comandos básicos do Linux. Para usuários Windows é um facilitador - usar o gitBash é praticamente permite usar o Linux em uma máquina Windows.
+
+Renomear arquivos no gitBash:
+
+//Renomear somente o nome do arquivo
+$mv NomeAntigo NomeNovo  
+
+//Podemos mudar a extensão, caso a funcionalidade esteja hibilitada no Windows
+$mv Arquivo.txt  Arquivo.rtf   
+
+--> Segurança no github
+
+> Abrir o GitBash
+
+$ssh-keygen -t ed25519 -C email@provedor.com
+
+>Acessar a pasta .ssh que foi exibida ao executar o comando acima
+
+$cd /c /Users/Nome/.ssh
+
+>listar o diretorio com a chave publica e privada
+$ls
+
+>visualizar o arquivo com a chave publica e privada
+#cat id_ed25519.pub
+
+
+
+
+
+
+
+
+
